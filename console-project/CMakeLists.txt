@@ -2,7 +2,7 @@
 # Most Important Variables
 #====================================================================================
 
-set(PROJECT_NAME "Simone-SDL2-Template")
+set(PROJECT_NAME "Simone-Console-Template")
 set(PROJECT_VERSION 0.1.0)
 
 #====================================================================================
@@ -26,9 +26,6 @@ set(VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_
 # External Library Setup
 #====================================================================================
 
-# Call to find the main library.
-find_package(SDL2 REQUIRED)
-
 #====================================================================================
 # Executable Setup
 #====================================================================================
@@ -38,6 +35,3 @@ add_subdirectory(src)
 
 # Add the executable itself.
 add_executable(${PROJECT_NAME} ${SRCS})
-
-# Add SDL2 to the project.
-target_link_libraries(${PROJECT_NAME} SDL2::SDL2 SDL2::SDL2main)

@@ -3,9 +3,6 @@ set(SRCS
     # The CMAKE_CURRENT_SOURCE_DIR makes the path relative to this CMakeLists.txt file.
     ${CMAKE_CURRENT_SOURCE_DIR}/main.c
 
-    # Additional source files.
-    ${CMAKE_CURRENT_SOURCE_DIR}/game.c
-
     # The parent scope makes this variable visible in the CMakeLists.txt file of the
     # parent directory.
     PARENT_SCOPE)
