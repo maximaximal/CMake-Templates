@@ -1,0 +1,2 @@
+# Simone-SDL-CMake-Template
+
