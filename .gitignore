@@ -116,3 +116,9 @@ install_manifest.txt
 .ninja_deps
 .ninja_log
 
+
+# Build directories
+
+build/
+build-*/
+CMakeLists.txt.user
