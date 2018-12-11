@@ -2,7 +2,7 @@
 # Most Important Variables
 #====================================================================================
 
-set(PROJECT_NAME "Simone-Console-Template")
+set(PROJECT_NAME "Console-Template")
 set(PROJECT_VERSION 0.1.0)
 
 #====================================================================================

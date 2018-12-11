@@ -2,7 +2,7 @@
 # Most Important Variables
 #====================================================================================
 
-set(PROJECT_NAME "Simone-SDL2-Template")
+set(PROJECT_NAME "SDL2-Template")
 set(PROJECT_VERSION 0.1.0)
 
 #====================================================================================
